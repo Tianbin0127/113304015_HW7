@@ -1,0 +1,138 @@
+body{
+    background-color: #eeede1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h2{
+	border-bottom: solid;
+	border-bottom-color: #CBDCEB;
+	border-bottom-width: 2px ;
+}
+
+.main-container{
+	display: grid;
+	grid-template-columns: 330px 540px;
+	max-width: 900px;
+	max-height: 1150px;
+
+}
+
+.left-panel{
+	background-color: #4A628A;
+	color: #DFF2EB;
+	float: left;
+	max-height: 1150px;
+}
+
+.right-panel{
+	background-color: ghostwhite;
+	width: 540px;
+	padding: 20px;
+}
+
+.photo-panel{
+	background-position: top;
+	width: 330px;
+	float: left;
+	padding: 0px;
+}
+
+.photo-panel-2{
+	display: flex;
+	justify-content: center;
+	width: 100px;
+	
+	padding: 0px;
+}
+
+.text-content{
+	padding-top: 20px;
+	padding: 20px;
+}
+
+
+.year{
+
+}
+
+.table{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	border-spacing: 40px 5px;
+	padding-top: 20px;
+}
+
+button {
+    background-color: #4A628A;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #3b4e6a;
+}
+
+form {
+    margin-top: 20px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.edit-name-button {
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    background-color: #4A628A;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-name-button:hover {
+    background-color: #3b4e6a;
+}
+
+.table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.table td img {
+    margin-right: 10px;
+}
+
+.add-music-button {
+    margin-top: 20px;
+    background-color: #4A628A;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-music-button:hover {
+    background-color: #3b4e6a;
+}
+
+.add-music-form {
+    margin-top: 20px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
